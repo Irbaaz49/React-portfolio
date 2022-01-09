@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "styled-components"
+import GlobalStyle from "./globalStyles"
+import { lightTheme} from "./components/Theme"
+import Main from "./components/Main";
+import BlogPage from "./components/BlogPage";
+import MySkillsPage from "./components/MySkillsPage";
+import AboutPage from "./components/AboutPage"
+import WorkPage from "./components/WorkPage"
+import Contact from "./components/Contact";
+import { positions, Provider } from "react-alert";
+import AlertTemplate from "react-alert-template-basic";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ 
+  const options = {
+    timeout: 5000,
+    position: positions.BOTTOM_CENTER
+  };
+  return <>
+
+<GlobalStyle/>
+
+<ThemeProvider theme={lightTheme}>
+<Main/>
+<AboutPage/>
+<BlogPage/>
+<MySkillsPage/>
+<WorkPage/>
+<Provider template={AlertTemplate} {...options}>
+
+<Contact/>
+</Provider>
+</ThemeProvider>
+
+
+
+
+    
+  </>
 }
 
-export default App;
+export default App

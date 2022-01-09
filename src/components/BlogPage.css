@@ -1,0 +1,31 @@
+.vertical-timeline-element-content{
+    position: relative;
+ margin-left: 60px;
+ background-color: #000;
+ border-radius: 0.25em;
+ color: white;
+ padding: 1em;
+ border: 1px solid;
+}
+.vertical-timeline-element-content:hover{
+    background: white;
+  
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+ 
+    color: black;
+}
+
+
+@media (max-width: 40em){
+    .vertical-timeline {
+
+        width: 80%;
+        max-width: 1170px;
+        margin: 0 auto;
+        position: relative;
+        padding: 2em 0;
+        margin-left: 10px;
+       } 
+}
