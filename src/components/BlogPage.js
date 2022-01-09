@@ -3,10 +3,10 @@ import timelineElements from './TimelineElement';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {FaGraduationCap,FaLaptopCode} from "react-icons/fa";
-import styled from 'styled-components';
+import styled, { keyframes, ThemeProvider } from 'styled-components'
 import {DarkTheme} from './Theme';
-import  {  ThemeProvider } from 'styled-components';
 import "./BlogPage.css"
+import astronauts from '../assets/images/read.png'
 
 
 
@@ -21,6 +21,28 @@ width: 100vw;
 
 
 
+`
+const float = keyframes`
+0% { transform: translateY(-10px) }
+50% { transform: translateY(15px) translateX(15px) }
+100% { transform: translateY(-10px) }
+`
+const Spacemans = styled.div`
+position: absolute;
+top: 15%;
+left: 7%;
+width: 20vw;
+animation: ${float} 4s ease infinite;
+img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 40em){
+    top: 5%;
+left: 3%;
+
+    // right: 17%;
+}
 `
 
 const BlogPage = () => {
@@ -60,6 +82,9 @@ const BlogPage = () => {
                     )
                 })
             }
+             <Spacemans>
+            <img src={astronauts} alt="spaceman" />
+        </Spacemans>   
         </VerticalTimeline>
         </MainContainer>
         </ThemeProvider>

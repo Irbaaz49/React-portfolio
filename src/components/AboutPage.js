@@ -3,7 +3,7 @@ import styled, { keyframes, ThemeProvider } from 'styled-components'
 import {DarkTheme} from './Theme';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitle'
-import astronaut from '../assets/images/spaceman.png'
+import astronaut from '../assets/images/hi.png'
 import Particles from "react-tsparticles";
 
 const Box = styled.div`
@@ -24,7 +24,7 @@ const Spaceman = styled.div`
 position: absolute;
 top: 10%;
 right: 7%;
-width: 20vw;
+width: 40vw;
 animation: ${float} 4s ease infinite;
 img{
     width: 100%;

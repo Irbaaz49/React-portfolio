@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from 'react'
-import styled, { ThemeProvider } from 'styled-components'
+import styled, { keyframes, ThemeProvider } from 'styled-components'
 import {DarkTheme} from './Theme';
 import {motion} from 'framer-motion';
+import astronauts from '../assets/images/sship.png'
 
 import { Work } from "../data/WorkData";
 import Card from '../subComponents/Card';
@@ -52,6 +53,7 @@ color:white;
   left: calc(250rem + 300vw);
 
 }
+
 `
 const Rotate = styled.span`
 display:block;
@@ -69,7 +71,36 @@ z-index:1;
 
 
 `
+const float = keyframes`
+0% { transform: translateY(-10px) }
+50% { transform: translateY(15px) translateX(15px) }
+100% { transform: translateY(-10px) }
+`
+const Spacemanship = styled.div`
+position: absolute;
+top: 90%;
+left: 40%;
+width: 20vw;
+transform: scaleY(-1);
+filter: drop-shadow(0px 100px 56px  #5ebac9);
+  animation: ${float} 4s ease infinite;
+img{
+    width: 100%;
+    height: auto;
+  
+}
+@media (max-width: 40em){
+    top: 85%;
+left: 22%;
+img{
+  width: 250%;
+  height: auto;
 
+}
+
+    
+}
+`
 
 // Framer-motion Configuration
 const container = {
@@ -129,6 +160,9 @@ const WorkPage = () => {
             )
          }
      </Main>
+     <Spacemanship>
+            <img src={astronauts} alt="spaceman" />
+        </Spacemanship>   
 <Rotate ref={yinyang}>
     <YinYang fill={DarkTheme.text} />
 </Rotate>

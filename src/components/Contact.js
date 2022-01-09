@@ -83,7 +83,7 @@ const Main = styled.div`
   }
   @media (max-width: 40em) {
     width: 65vw;
-    height: 70vh;
+    height: 75vh;
     top: 45%;
     padding-right: 45px;
     left: 50%;

@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { ThemeProvider } from 'styled-components'
+import styled, { keyframes, ThemeProvider } from 'styled-components'
 import {DarkTheme} from './Theme';
 import { Design, Develope} from './AllSvgs';
 
@@ -32,8 +32,8 @@ color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 padding: 2rem;
 width: 30vw;
-height: 60vh;
-z-index:3;
+height: 70vh;
+// z-index:3;
 line-height: 1.5;
 cursor: pointer;
 
@@ -59,15 +59,15 @@ media (max-width: 30em) :nth-child(5) {
 }
 
 @media (max-width: 60em) {
-    height: 55vh;
+    height: 65vh;
 }
 @media (max-width: 50em){
-    width: 50vw;
+    width: 60vw;
     height: max-content;
 }
 
 @media (max-width: 60em){
-    height: 55vh;
+    height: 65vh;
         margin-bottom: 20px;
 }
 `
@@ -150,6 +150,7 @@ backdrop-filter:blur(4px);
 }
 `
 
+
 const MySkillsPage = () => {
    
     return (
@@ -176,7 +177,7 @@ I love to create design which speaks, Keep it clean, minimal and simple.
     </li> */}
 </ul>
 </Description>
-<Description>
+{/* <Description>
 <strong>Tools</strong>
 <ul>
     <li>
@@ -184,9 +185,10 @@ I love to create design which speaks, Keep it clean, minimal and simple.
     </li>
     
 </ul>
-</Description>
+</Description> */}
 
             </Main>
+          
             <Main>
 <Title>
     <Develope width={40} height={40} /> Frontend Developer
@@ -197,7 +199,7 @@ I value business or brand for which i'm creating, thus i enjoy bringing new idea
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Node js, Mongo db etc.
+Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Node js, Mongo db.
 </p>
 </Description>
 <Description>
