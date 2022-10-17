@@ -55,7 +55,7 @@ const BlogPage = () => {
         <MainContainer>
       
      
-            <BigTitle text="EDUCATION" top="10%" left="10%" color="white" />
+            <BigTitle text="EDUCATION && WORK" top="10%" left="10%" color="white" />
         <VerticalTimeline >
             {
                 timelineElements.map(element => {
