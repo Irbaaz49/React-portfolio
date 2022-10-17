@@ -8,12 +8,12 @@ top: ${props => props.top};
 left: ${props => props.left};
 right: ${props => props.right};
 color:${props => `rgba(${props.theme.textRgba},0.1)`};
-font-size: calc(5rem + 5vw);
+font-size: calc(3rem + 5vw);
 z-index:0;
 background-color:black;
 @media only screen and (max-width: 50em) {
 
-    font-size: calc(2rem + 5vw);
+    font-size: calc(1rem + 3vw);
 }
 `
 
