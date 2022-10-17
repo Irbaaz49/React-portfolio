@@ -1,19 +1,33 @@
 
 
 let timelineElements = [
+
+
+  {
+    id: 1,
+    title: "Newton School Coding Bootcamp",
+    location: "Hyderabad, Telengana",
+    description:
+      "Full Stack Web Development and Problem Solving.",
+    buttonText: "",
+    date: "2022",
+    icon: "work",
+ 
+  },
+
     {
-        id: 1,
+        id: 2,
         title: "Swami Vivekanada Institute of Technology ",
         location: "Hyderabad, Telengana",
         description:
           "Electronics and Communication Engineering",
-        buttonText: "6.9",
+        buttonText: "",
         date: "2020",
         icon: "school",
      
       },
     {
-      id: 2,
+      id: 3,
       title: "Packet prep : Web Development Internship",
       location: "Hyderabad, Telengana",
       description:
@@ -23,7 +37,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 3,
+      id: 4,
       title: " Embedded system design Internship",
       location: "ECIL",
       description:
@@ -33,17 +47,17 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 4,
+      id: 5,
       title: "Swami Vivekanada Institute of Technology ",
       location: "Hyderabad, Telengana",
       description:
         "Electronics and Communication Engineering",
-      buttonText: "6.9",
+      buttonText: "",
       date: "2016",
       icon: "school",
     },
     {
-      id: 5,
+      id: 6,
       title: "Nava chaitanya College",
       location: "Hyderabad, Telengana",
       description:
@@ -53,11 +67,11 @@ let timelineElements = [
       icon: "school",
     },
     {
-      id: 6,
+      id: 7,
       title: "Iqra High School",
       location: "Hyderabad, Telengana",
       description:
-        "83%",
+        "",
       date: "2002 - 2014",
       icon: "school",
     },
