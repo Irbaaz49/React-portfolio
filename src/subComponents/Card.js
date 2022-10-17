@@ -72,8 +72,8 @@ font-size:calc(1em + 0.5vw);
 cursor:pointer;
 
 ${Box}:hover &{
-    background-color: ${props =>props.theme.text};
-    color: ${props =>props.theme.body};
+    background-color: ${props =>props.theme.body};
+    color: ${props =>props.theme.text};
 cursor:pointer;
 
 
@@ -128,7 +128,7 @@ const Card = (props) => {
             </Tags>
             <Footer>
                 <Demo href= {demo} target="_blank">
-                   <a href={demo} target="_blank" rel="noopener noreferrer" >Visit</a> 
+                   <a href={demo} target="_blank" rel="noopener noreferrer" style={{color:'white', textDecoration:'none'}}>Visit</a> 
                 </Demo>
                 <Git href= {github} rel="noopener noreferrer" target="_blank">
                    <a href={github} rel="noopener noreferrer" target="_blank"><Github width={30} height={30} /></a> 
