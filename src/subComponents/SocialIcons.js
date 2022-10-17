@@ -67,7 +67,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.6}}
             >
-                <a style={{color:'inherit'}} rel="noopener noreferrer" target="_blank"  href={"https://www.linkedin.com/in/irbaaz-hussain-8815a1132"} >
+                <a style={{color:'inherit'}} rel="noopener noreferrer" target="_blank"  href={"https://www.linkedin.com/in/md-irbaaz-hussain-8815a1132/"} >
                     <LinkIN width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </a>
             </motion.div>
