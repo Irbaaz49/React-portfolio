@@ -159,35 +159,6 @@ const MySkillsPage = () => {
 <Box>
 
 
-            <Main>
-<Title>
-    <Design width={40} height={40} /> Designer
-</Title>
-<Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
-</Description>
-<Description>
-<strong>I like to Design</strong>
-<ul>
-    <li>
-        Web Design
-    </li>
-    {/* <li>
-        Mobile Apps
-    </li> */}
-</ul>
-</Description>
-{/* <Description>
-<strong>Tools</strong>
-<ul>
-    <li>
-       Figma
-    </li>
-    
-</ul>
-</Description> */}
-
-            </Main>
           
             <Main>
 <Title>
@@ -199,13 +170,13 @@ I value business or brand for which i'm creating, thus i enjoy bringing new idea
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Node js, Mongo db.
+HTML, CSS, JavaScript, Java, React, Bootstrap, Material UI, Tailwind CSS, Node js, Mongo db.
 </p>
 </Description>
 <Description>
 <strong>Tools</strong>
 <p>
-VScode, Github, Codepen etc.
+VScode, Github, Codepen, Git, CodeSandbox etc.
 </p>
 </Description>
 
