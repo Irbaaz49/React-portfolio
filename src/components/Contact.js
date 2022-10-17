@@ -91,6 +91,14 @@ const Main = styled.div`
   }
 `;
 
+const Sec = styled.div`
+display: flex;
+justify-content :space-between;
+position : relative;
+flex-wrap:wrap;
+left :10px;
+`;
+
 const Contact = () => {
   const alert = useAlert();
 function sendEmail(e){
@@ -148,15 +156,19 @@ function sendEmail(e){
             </div>
           </form>
           
+<Sec>
+
+
 
         
-          <a href={"mailto:irbaazhussain49@gmail.com"} rel="noopener noreferrer" style={{position:"relative", left:"70px", top:"20px", textDecoration:"none", color:"white"}} target="_blank">
+          <a href={"mailto:irbaazhussain49@gmail.com"} rel="noopener noreferrer" style={{position:"relative", left:"70px", top:"20px", textDecoration:"none", color:"white", border:'1px solid lightgray', padding:'5px', marginBottom:'5px'}} target="_blank">
             irbaazhussain49@gmail.com
           </a>
-          <a href="tel:+917660963597" target="_blank" rel="noopener noreferrer" style={{position:"relative", left:"114px",top:"20px",textDecoration:"none", color:"white"}}>
-            7660963597
+          <a href="tel:+917660963597" target="_blank" rel="noopener noreferrer" style={{position:"relative", left:"114px",top:"20px",textDecoration:"none", color:"white", border:'1px solid lightgray', padding:'5px'}}>
+            6304011306
           </a>
-     <a href="https://drive.google.com/file/d/1vekZY-gy8zLwDEPRbCVcMbj4w7LzXtcT/preview" rel="noopener noreferrer" target="_blank" style={{position:"relative", left:"114px",top:"20px",textDecoration:"none", color:"white"}}>Resume</a>
+     </Sec>
+
         </Main>
 
         <BigTitle text="HIRE ME" top="3%" left="9%" />
