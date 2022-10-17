@@ -28,7 +28,7 @@ height: 850vh;
 const Main = styled(motion.ul)`
 position: fixed;
 top: 15rem;
-left:calc(250rem + 50vw);
+left:calc(300rem + 50vw);
 height: 40vh;
 display: flex;
 color:white;
