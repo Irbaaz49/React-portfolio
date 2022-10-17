@@ -15,10 +15,13 @@ import BigTitle from '../subComponents/BigTitle'
 const MainContainer =styled.div`
 background-color: ${props => props.theme.body};
 background-color: green;
-margin-top:-1px;
+margin-top:300px;
 z-index:0;
 width: 100vw;
+@media (max-width: 40em){
+margin-top:150px;
 
+}
 
 
 `
