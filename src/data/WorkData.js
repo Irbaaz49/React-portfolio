@@ -25,7 +25,7 @@ export const Work = [
     {
         id:3,
         name:"Service Offering website",
-        description:"It is a clone of the Loriku website and is used for cloud hosting and the deployment of all types of web apps, from massive enterprise APIs to small-scale static webpages for individuals.",
+        description:"It is a clone of the Loriku website and is used for cloud hosting and the deployment of all types of web apps.",
         tags:["HTML","CSS", "JavaScript"],
         
         demo:"https://singular-platypus-8e0765.netlify.app/",
