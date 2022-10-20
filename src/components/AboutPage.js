@@ -132,7 +132,7 @@ z-index: 3;
         </Spaceman>
         <Main>
             <Secmain>
-          I work as a front-end developer in India. I enjoy creating simple yet
+          I am looking for an opportunity as a front-end developer. I enjoy creating simple yet
           beautiful websites with excellent user experience.
           <br /> <br />
           I'm curious about the entire front-end stack. Like exploring new ideas
