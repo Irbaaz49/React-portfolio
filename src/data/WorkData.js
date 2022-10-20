@@ -8,7 +8,7 @@ export const Work = [
         description:"Its a Amazon clone, with add to cart, signin/singup functionality",
         tags:[ "React", "Firebase", "Material UI", "Context api"],
         
-        demo:"https://e-com-app-eight.vercel.app/",
+        demo:"https://ecomwebapp.vercel.app/",
         github:"https://github.com/Irbaaz49/E-Com-App"
         
     },
