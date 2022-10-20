@@ -113,7 +113,7 @@ const handleClick = ()=> setClick(!click)
            < SocialIcons theme={click ? "dark" : "light"}/>
 <Center click={click}>
  <YinYang className="Main" width={click ? 120 : 200} onClick={()=> handleClick()} height={click ? 120 : 200} fill='black' />
-    <span style={{color:"white"}}>Click here</span>
+    <span style={{color:"black"}}>Click here ⬆ ⬆</span>
 </Center>
 
           </Container>
